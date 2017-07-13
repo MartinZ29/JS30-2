@@ -9,6 +9,7 @@ $(document).ready(function(){
 
         const hours = now.getMinutes();
         const hourDegrees = ((mins /12)*360) + 90;
-        
+
+        hourHand.style.transform = 'rotate(${minsDegrees}deg)';
     }
 })
