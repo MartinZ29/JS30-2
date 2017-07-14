@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
     function setDate(){
         const now = new Date();
         const seconds = now.getSeconds();
@@ -12,4 +12,3 @@ $(document).ready(function(){
 
         hourHand.style.transform = 'rotate(${minsDegrees}deg)';
     }
-})
