@@ -11,6 +11,7 @@ const hourHand = document.querySelector('.hour');
 
         const mins = now.getMinutes();
         const minsDegrees = (mins/60) * 360 +90;
+        minsHand.style.transform = `rotate(${minsDegrees}deg)`;
 
         const hours = now.getMinutes();
         const hourDegrees = ((mins /12)*360) + 90;
