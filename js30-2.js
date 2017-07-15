@@ -17,3 +17,5 @@ const hourHand = document.querySelector('.hour');
 
         hourHand.style.transform = 'rotate(${minsDegrees}deg)';
     }
+
+    setInterval(setDate,1000);
